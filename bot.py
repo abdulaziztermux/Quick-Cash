@@ -4,7 +4,7 @@ import sqlite3
 
 # Bot Token (8346685112:AAEJcFNG6PcWTKYGTSm8mYPeQ2LTch4rYHc)
 API_TOKEN = '8346685112:AAEJcFNG6PcWTKYGTSm8mYPeQ2LTch4rYHc'
-bot = telebot.TeleBot(8346685112:AAEJcFNG6PcWTKYGTSm8mYPeQ2LTch4rYHc)
+bot = telebot.TeleBot('8346685112:AAEJcFNG6PcWTKYGTSm8mYPeQ2LTch4rYHc')
 
 # ডাটাবেস ফাংশন
 def init_db():
@@ -40,4 +40,5 @@ def handle_msg(message):
 
 
 bot.infinity_polling()
+
 
