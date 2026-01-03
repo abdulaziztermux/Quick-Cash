@@ -3,8 +3,8 @@ from telebot import types
 import sqlite3
 
 # আপনার নতুন এবং সক্রিয় টোকেন
-API_TOKEN = '8346685112:AAHWLw7SdyrfPGezYPN2Am6_uHmjqFnqAwk'
-bot = telebot.TeleBot(API_TOKEN)
+API_TOKEN = '8346685112:AAHXjfFlyiB0zio_VLdEQzhrtmzZs9uhvp8'
+bot = telebot.TeleBot('8346685112:AAHXjfFlyiB0zio_VLdEQzhrtmzZs9uhvp8')
 
 # ডাটাবেস সেটআপ
 def init_db():
@@ -63,3 +63,4 @@ def show_profile(message):
         bot.send_message(user_id, profile_text, parse_mode="Markdown")
 
 bot.infinity_polling()
+
